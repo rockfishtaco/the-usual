@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>My first three.js app</title>
+    <title>coverspinner</title>
     <style>
         body {
             margin: 0;      
@@ -14,7 +14,9 @@
 
 <body>
     <h1 style="color:teal;">The Usual</h1>,
-    <script src="three.js"></script>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        
+    <script src="three.js"></script>s
     <script>
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(73, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -43,6 +45,7 @@
 
         animate();
     </script>
+    </canvas>
 </body>
 
 </html>
