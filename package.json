@@ -1,0 +1,20 @@
+{
+  "name": "graffix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "three.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockfishtaco/the-usual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockfishtaco/the-usual/issues"
+  },
+  "homepage": "https://github.com/rockfishtaco/the-usual#readme"
+}

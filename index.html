@@ -3,32 +3,32 @@
 
 <head>
     <meta charset="utf-8">
-    <title>coverspinner</title>
+    <title>tellet</title>
     <style>
         body {
-            margin: 0;      
+
+            margin: 0;
         }
-        
     </style>
 </head>
 
 <body>
-    <h1 style="color:teal;">The Usual</h1>,
-    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-        
-    <script src="three.js"></script>s
+    <h2 style="color:orange; font-size:30px; z-index: 2; background-color:black;">Tellet communications</h2>
+
+
+    <script src="three.js"></script>
     <script>
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(73, window.innerWidth / window.innerHeight, 0.1, 1000);
 
-        const renderer = new THREE.WebGLRenderer({antialias:true});
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
         const geometry = new THREE.BoxGeometry();
-       // const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-       const texture = new THREE.TextureLoader().load('images/wardclever.jpg');
-       const material = new THREE.MeshBasicMaterial({map:texture, texture});
+        // const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        const texture = new THREE.TextureLoader().load('images/headstoner.jpg');
+        const material = new THREE.MeshBasicMaterial({ map: texture, texture });
         const cube = new THREE.Mesh(geometry, material);
         scene.add(cube);
 
